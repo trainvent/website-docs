@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Trainvent",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.All Documents": {
+    "message": "Alle Dokumente",
+    "description": "Navbar item with label All Documents"
+  },
+  "item.label.Raspberry Pi": {
+    "message": "Raspberry Pi",
+    "description": "Navbar item with label Raspberry Pi"
+  }
+}

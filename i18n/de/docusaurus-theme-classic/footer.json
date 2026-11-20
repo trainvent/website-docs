@@ -1,0 +1,14 @@
+{
+  "link.item.label.trainvent.com": {
+    "message": "trainvent.com",
+    "description": "The label of footer link with label=trainvent.com linking to https://www.trainvent.com"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/trainvent"
+  },
+  "copyright": {
+    "message": "© 2026 Trainvent",
+    "description": "The footer copyright"
+  }
+}
