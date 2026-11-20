@@ -1,0 +1,73 @@
+/* Classic: white pages, teal accent, Waveshare-like layout. */
+
+:root {
+  --ifm-heading-font-weight: 700;
+  --ifm-card-border-radius: 0.5rem;
+  --ifm-color-primary: #14968c;
+  --ifm-color-primary-dark: #12877e;
+  --ifm-color-primary-darker: #117f77;
+  --ifm-color-primary-darkest: #0e6962;
+  --ifm-color-primary-light: #16a59a;
+  --ifm-color-primary-lighter: #17ada1;
+  --ifm-color-primary-lightest: #1ac3b6;
+  --ifm-background-color: #ffffff;
+  --ifm-toc-border-color: #e2ebea;
+  --theme-accent-soft: #e3f4f1;
+  --theme-line: #e2ebea;
+  --docusaurus-highlighted-code-line-bg: rgb(0 0 0 / 10%);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #2fd1c1;
+  --ifm-color-primary-dark: #2bbcae;
+  --ifm-color-primary-darker: #28b2a4;
+  --ifm-color-primary-darkest: #219287;
+  --ifm-color-primary-light: #45d6c7;
+  --ifm-color-primary-lighter: #50d8ca;
+  --ifm-color-primary-lightest: #72e0d5;
+  --ifm-background-color: #06191a;
+  --ifm-background-surface-color: #0b2324;
+  --ifm-toc-border-color: #163334;
+  --theme-accent-soft: #0e2f2f;
+  --theme-line: #163334;
+  --docusaurus-highlighted-code-line-bg: rgb(0 0 0 / 30%);
+}
+
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--theme-line);
+}
+
+.navbar__title {
+  color: var(--ifm-color-primary);
+}
+
+.theme-doc-sidebar-container {
+  border-right-color: var(--theme-line) !important;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: var(--theme-accent-soft);
+  font-weight: 600;
+}
+
+.menu__list-item-collapsible--active {
+  background: var(--theme-accent-soft);
+}
+
+.table-of-contents {
+  border-left: 1px solid var(--theme-line);
+}
+
+.pagination-nav__link {
+  border-color: var(--theme-line);
+}
+
+.pagination-nav__label {
+  color: var(--ifm-color-primary);
+}
+
+.alert {
+  border-width: 0 0 0 4px;
+  border-radius: var(--ifm-card-border-radius);
+}

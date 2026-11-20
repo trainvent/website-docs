@@ -19,3 +19,7 @@ npm run build
 4. For a new category, add a sidebar in `sidebars.ts` and a navbar item in `docusaurus.config.ts`.
 
 Pushes to `main` deploy to GitHub Pages.
+
+## Change the look
+
+Each look is one file in `src/css/themes/` (colours, borders, sidebar and navbar styling). To switch, set `SITE_THEME` in `docusaurus.config.ts` to the file name. To make a new look, copy `classic.css` and edit it.

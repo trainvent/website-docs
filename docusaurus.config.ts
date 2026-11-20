@@ -6,6 +6,9 @@ const SITE_URL = 'https://docs.trainvent.com';
 const GITHUB_ORG_URL = 'https://github.com/trainvent';
 const MAIN_SITE_URL = 'https://www.trainvent.com';
 
+// Matches a file in src/css/themes/.
+const SITE_THEME = 'classic';
+
 const config: Config = {
   title: 'Trainvent Docs',
   tagline: 'Build guides and resources for Trainvent projects',
@@ -40,7 +43,7 @@ const config: Config = {
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: ['./src/css/custom.css', `./src/css/themes/${SITE_THEME}.css`],
         },
       } satisfies Preset.Options,
     ],
@@ -74,6 +77,7 @@ const config: Config = {
       logo: {
         alt: 'Trainvent',
         src: 'img/logo.svg',
+        srcDark: 'img/logo-dark.svg',
       },
       items: [
         {to: '/', label: 'All Documents', position: 'left', activeBaseRegex: '^/(de/?)?$'},
